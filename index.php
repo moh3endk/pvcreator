@@ -3,12 +3,12 @@ ob_start();
 error_reporting(0);
 date_default_timezone_set('Asia/Tehran');
 //--------[Your Config]--------//
-$Dev =1487061355;
+$Dev =14871355;
 $channel = "@static_team";
-$logchannel = -1001343369285;
-$host_folder = "Https://tech-rashidi.ir/wp-admin/user/pv";
+$logchannel = -10013469285;
+$host_folder = "Https://";
 //-----------------------------//
-define('API_KEY','1761199454:AAEFeCiIJPCK5VT6firfyXi8w_4nUTwzAa0');//توکن
+define('API_KEY','1761199454:AAEFeCiIJPCKAa0');//توکن
 //------------------------------------------------------------------------------
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
